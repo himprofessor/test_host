@@ -1,0 +1,19 @@
+.card{
+    position: relative;
+    top:0;
+    transition: 0.2s ease-in;
+}
+.card:hover{
+    top: -30px;
+}
+
+#testAnimate{
+    position: relative;
+    animation: test 1s ease;
+}
+
+
+@keyframes test {
+    from{left:-200px ;}
+    to{left:0px;}
+}
